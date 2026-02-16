@@ -14,7 +14,7 @@ It includes:
 - Documents required catalog
 - Resource catalog
 - Relationship matrix (`project_type_requirements`)
-- Starter granular template for one deliverable (`deliverable_breakdown_templates.structural-plans`)
+- Starter granular templates for scoped deliverables (`deliverable_breakdown_templates.container-plans`, `deliverable_breakdown_templates.structural-plans`)
 
 ## 2) Recommended Airtable structure (normalized)
 

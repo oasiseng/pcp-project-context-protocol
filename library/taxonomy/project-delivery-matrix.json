@@ -447,6 +447,196 @@
     }
   ],
   "deliverable_breakdown_templates": {
+    "container-plans": {
+      "description": "Container plan package index covering architectural, electrical, mechanical, plumbing, and structural sheets for permit-ready submission.",
+      "sheet_codes": [
+        {
+          "code": "A.0",
+          "name": "Cover Sheet",
+          "required": true
+        },
+        {
+          "code": "A.1",
+          "name": "Site Plan",
+          "required": true
+        },
+        {
+          "code": "A.2",
+          "name": "1st Floor Plan",
+          "required": true
+        },
+        {
+          "code": "A.3",
+          "name": "2nd Floor Plan",
+          "required": true
+        },
+        {
+          "code": "A.4",
+          "name": "Elevations",
+          "required": true
+        },
+        {
+          "code": "A.5",
+          "name": "General Notes",
+          "required": true
+        },
+        {
+          "code": "A.6",
+          "name": "Container Details (1)",
+          "required": true
+        },
+        {
+          "code": "A.7",
+          "name": "Container Details (2)",
+          "required": true
+        },
+        {
+          "code": "E.0",
+          "name": "Electrical Notes",
+          "required": true
+        },
+        {
+          "code": "E.1",
+          "name": "1st Floor Power Plan",
+          "required": true
+        },
+        {
+          "code": "E.2",
+          "name": "2nd Floor Power Plan",
+          "required": true
+        },
+        {
+          "code": "E.3",
+          "name": "1st Floor Lighting Plan",
+          "required": true
+        },
+        {
+          "code": "E.4",
+          "name": "2nd Floor Lighting Plan",
+          "required": true
+        },
+        {
+          "code": "M.1",
+          "name": "Mechanical Specs and Schedule",
+          "required": true
+        },
+        {
+          "code": "M.2",
+          "name": "1st Floor Mechanical Plan",
+          "required": true
+        },
+        {
+          "code": "M.3",
+          "name": "2nd Floor Mechanical Plan",
+          "required": true
+        },
+        {
+          "code": "P.1",
+          "name": "Plumbing Specs",
+          "required": true
+        },
+        {
+          "code": "P.2",
+          "name": "Details and Notes",
+          "required": true
+        },
+        {
+          "code": "P.3",
+          "name": "1st Floor Plumbing Water Plan",
+          "required": true
+        },
+        {
+          "code": "P.4",
+          "name": "2nd Floor Plumbing Water Plan",
+          "required": true
+        },
+        {
+          "code": "P.5",
+          "name": "1st Floor Sanitary Plan",
+          "required": true
+        },
+        {
+          "code": "P.6",
+          "name": "2nd Floor Sanitary Plan",
+          "required": true
+        },
+        {
+          "code": "P.7",
+          "name": "Plumbing Details",
+          "required": true
+        },
+        {
+          "code": "S.1",
+          "name": "Foundation Plan",
+          "required": true
+        },
+        {
+          "code": "S.2",
+          "name": "1st Floor Framing Plan",
+          "required": true
+        },
+        {
+          "code": "S.3",
+          "name": "2nd Floor Framing Plan",
+          "required": true
+        },
+        {
+          "code": "S.4",
+          "name": "Roof Framing Plan",
+          "required": true
+        },
+        {
+          "code": "S.5",
+          "name": "Foundation General Notes",
+          "required": true
+        },
+        {
+          "code": "S.6",
+          "name": "Details & Connections (1)",
+          "required": true
+        },
+        {
+          "code": "S.7",
+          "name": "Details & Connections (2)",
+          "required": true
+        },
+        {
+          "code": "S.8",
+          "name": "Details & Connections (3)",
+          "required": true
+        },
+        {
+          "code": "S.9",
+          "name": "Section (1)",
+          "required": true
+        },
+        {
+          "code": "S.10",
+          "name": "Section (2)",
+          "required": true
+        },
+        {
+          "code": "S.11",
+          "name": "1st Floor Shear Wall Plan",
+          "required": true
+        },
+        {
+          "code": "S.12",
+          "name": "2nd Floor Shear Wall Plan",
+          "required": true
+        },
+        {
+          "code": "S.13",
+          "name": "Typical Opening Details (1)",
+          "required": true
+        },
+        {
+          "code": "S.14",
+          "name": "Typical Opening Details (2)",
+          "required": true
+        }
+      ]
+    },
     "structural-plans": {
       "description": "Starter sheet package for granular scoping in Airtable.",
       "sheet_codes": [
