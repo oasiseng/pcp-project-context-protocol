@@ -100,3 +100,28 @@ For each deliverable define:
 ## 6) Implementation note for bots
 
 Treat the matrix JSON as the source-of-truth catalog and compile project-specific PCP payloads from it. Avoid hardcoding defaults in bot prompts.
+
+## 7) WindCalculations subcategory model
+
+The taxonomy now includes a dedicated wind subcategory layer for `wind-calculations` projects:
+
+- `wind_calculations_subcategories`
+- `wind_subcategory_deliverable_matrix`
+
+Operational playbooks for each subcategory are in the root `WindCalculations/` folder.
+
+### Suggested additional Airtable fields
+
+In **Projects**:
+- `project_subcategory` (single select, e.g., `WC-DOOR`)
+
+In **Project Deliverables**:
+- `source_matrix` (`project_type` or `subcategory`)
+
+### Suggested automation extension
+
+When `Project Type = wind-calculations` and `project_subcategory` is set:
+1. Read `wind_subcategory_deliverable_matrix` for the selected code.
+2. Add required package items (letter, wind calcs, NOA/FPA attachments, etc.).
+3. Assign subcategory-specific input checklist from `wind_calculations_subcategories`.
+4. Link the appropriate playbook directory for engineer/bot execution context.

@@ -43,6 +43,20 @@ Most teams lose time because project context lives across docs, chat, and memory
 - `airtable/`: Airtable integration guidance
 - `templates/`: document templates used by PCP payloads
 - `docs/`: operational templates and reference docs
+- `WindCalculations/`: standardized wind-calculation subcategory playbooks
+
+
+## New: Standardized Engineering Intake Matrix
+
+For teams mapping project types to default deliverables, required documents, and execution resources:
+
+- Canonical matrix: `library/taxonomy/project-delivery-matrix.json`
+- Operational guidance: `docs/standardized-sop-framework.md`
+- Example generated PCP payload: `examples/container-home-pcp.json`
+
+This gives you a machine-readable baseline for Airtable automations and bot task assignment.
+
+Wind subcategory playbooks are available under `WindCalculations/` and mapped in `library/taxonomy/project-delivery-matrix.json`.
 
 
 ## New: Standardized Engineering Intake Matrix
