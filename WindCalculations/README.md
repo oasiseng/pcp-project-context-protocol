@@ -39,3 +39,7 @@ Each subcategory includes:
 - `deliverables.md`: deliverable package checklist
 
 Where applicable, extra files are included (e.g., sample letter and HVHZ mapping).
+
+## Master Source Registry
+
+- `_documents-required-master.md`: canonical document source IDs, subcategory dependency maps, and checklist automation references.
