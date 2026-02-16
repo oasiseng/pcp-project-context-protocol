@@ -66,6 +66,7 @@ For teams mapping project types to default deliverables, required documents, and
 - Canonical matrix: `library/taxonomy/project-delivery-matrix.json`
 - Operational guidance: `docs/standardized-sop-framework.md`
 - Example generated PCP payload: `examples/container-home-pcp.json`
+- Container plans deliverable index: `docs/container-plans-deliverable.md`
 
 This gives you a machine-readable baseline for Airtable automations and bot task assignment.
 

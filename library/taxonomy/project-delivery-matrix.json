@@ -447,6 +447,196 @@
     }
   ],
   "deliverable_breakdown_templates": {
+    "container-plans": {
+      "description": "Container plan package index covering architectural, electrical, mechanical, plumbing, and structural sheets for permit-ready submission.",
+      "sheet_codes": [
+        {
+          "code": "A.0",
+          "name": "Cover Sheet",
+          "required": true
+        },
+        {
+          "code": "A.1",
+          "name": "Site Plan",
+          "required": true
+        },
+        {
+          "code": "A.2",
+          "name": "1st Floor Plan",
+          "required": true
+        },
+        {
+          "code": "A.3",
+          "name": "2nd Floor Plan",
+          "required": true
+        },
+        {
+          "code": "A.4",
+          "name": "Elevations",
+          "required": true
+        },
+        {
+          "code": "A.5",
+          "name": "General Notes",
+          "required": true
+        },
+        {
+          "code": "A.6",
+          "name": "Container Details (1)",
+          "required": true
+        },
+        {
+          "code": "A.7",
+          "name": "Container Details (2)",
+          "required": true
+        },
+        {
+          "code": "E.0",
+          "name": "Electrical Notes",
+          "required": true
+        },
+        {
+          "code": "E.1",
+          "name": "1st Floor Power Plan",
+          "required": true
+        },
+        {
+          "code": "E.2",
+          "name": "2nd Floor Power Plan",
+          "required": true
+        },
+        {
+          "code": "E.3",
+          "name": "1st Floor Lighting Plan",
+          "required": true
+        },
+        {
+          "code": "E.4",
+          "name": "2nd Floor Lighting Plan",
+          "required": true
+        },
+        {
+          "code": "M.1",
+          "name": "Mechanical Specs and Schedule",
+          "required": true
+        },
+        {
+          "code": "M.2",
+          "name": "1st Floor Mechanical Plan",
+          "required": true
+        },
+        {
+          "code": "M.3",
+          "name": "2nd Floor Mechanical Plan",
+          "required": true
+        },
+        {
+          "code": "P.1",
+          "name": "Plumbing Specs",
+          "required": true
+        },
+        {
+          "code": "P.2",
+          "name": "Details and Notes",
+          "required": true
+        },
+        {
+          "code": "P.3",
+          "name": "1st Floor Plumbing Water Plan",
+          "required": true
+        },
+        {
+          "code": "P.4",
+          "name": "2nd Floor Plumbing Water Plan",
+          "required": true
+        },
+        {
+          "code": "P.5",
+          "name": "1st Floor Sanitary Plan",
+          "required": true
+        },
+        {
+          "code": "P.6",
+          "name": "2nd Floor Sanitary Plan",
+          "required": true
+        },
+        {
+          "code": "P.7",
+          "name": "Plumbing Details",
+          "required": true
+        },
+        {
+          "code": "S.1",
+          "name": "Foundation Plan",
+          "required": true
+        },
+        {
+          "code": "S.2",
+          "name": "1st Floor Framing Plan",
+          "required": true
+        },
+        {
+          "code": "S.3",
+          "name": "2nd Floor Framing Plan",
+          "required": true
+        },
+        {
+          "code": "S.4",
+          "name": "Roof Framing Plan",
+          "required": true
+        },
+        {
+          "code": "S.5",
+          "name": "Foundation General Notes",
+          "required": true
+        },
+        {
+          "code": "S.6",
+          "name": "Details & Connections (1)",
+          "required": true
+        },
+        {
+          "code": "S.7",
+          "name": "Details & Connections (2)",
+          "required": true
+        },
+        {
+          "code": "S.8",
+          "name": "Details & Connections (3)",
+          "required": true
+        },
+        {
+          "code": "S.9",
+          "name": "Section (1)",
+          "required": true
+        },
+        {
+          "code": "S.10",
+          "name": "Section (2)",
+          "required": true
+        },
+        {
+          "code": "S.11",
+          "name": "1st Floor Shear Wall Plan",
+          "required": true
+        },
+        {
+          "code": "S.12",
+          "name": "2nd Floor Shear Wall Plan",
+          "required": true
+        },
+        {
+          "code": "S.13",
+          "name": "Typical Opening Details (1)",
+          "required": true
+        },
+        {
+          "code": "S.14",
+          "name": "Typical Opening Details (2)",
+          "required": true
+        }
+      ]
+    },
     "structural-plans": {
       "description": "Starter sheet package for granular scoping in Airtable.",
       "sheet_codes": [
@@ -487,264 +677,5 @@
         }
       ]
     }
-  },
-  "wind_calculations_subcategories": [
-    {
-      "id": "wc-door",
-      "code": "WC-DOOR",
-      "name": "Exterior Door Wind Certification",
-      "required_inputs": [
-        "property-address",
-        "jurisdiction",
-        "florida-product-approval",
-        "door-size",
-        "installation-type",
-        "mean-roof-height"
-      ],
-      "required_documents": [
-        "florida-product-approval",
-        "manufacturer-installation-instructions",
-        "door-cut-sheet"
-      ],
-      "deliverables": [
-        "engineer-letter-report",
-        "wind-engineering-report"
-      ]
-    },
-    {
-      "id": "wc-window",
-      "code": "WC-WINDOW",
-      "name": "Window Wind Certification",
-      "required_inputs": [
-        "property-address",
-        "jurisdiction",
-        "florida-product-approval",
-        "window-configuration",
-        "mullion-condition",
-        "glazing-type"
-      ],
-      "required_documents": [
-        "florida-product-approval",
-        "manufacturer-installation-instructions",
-        "window-cut-sheet"
-      ],
-      "deliverables": [
-        "engineer-letter-report",
-        "wind-engineering-report"
-      ]
-    },
-    {
-      "id": "wc-roof-tile",
-      "code": "WC-ROOF-TILE",
-      "name": "HVHZ Steep Slope Tile",
-      "required_inputs": [
-        "address",
-        "contractor-info",
-        "roof-slope",
-        "mean-roof-height",
-        "roof-area",
-        "tile-noa",
-        "underlayment-noa",
-        "fastening-method"
-      ],
-      "required_documents": [
-        "tile-noa",
-        "underlayment-noa",
-        "roof-report-quickmeasure",
-        "hvhz-form-template"
-      ],
-      "deliverables": [
-        "engineer-letter-report",
-        "wind-engineering-report",
-        "construction-detail"
-      ]
-    },
-    {
-      "id": "wc-roof-low-slope",
-      "code": "WC-ROOF-LOW-SLOPE",
-      "name": "Low-Slope Membrane Roofing",
-      "required_inputs": [
-        "address",
-        "jurisdiction",
-        "roof-area",
-        "mean-roof-height",
-        "roof-slope",
-        "membrane-noa"
-      ],
-      "required_documents": [
-        "miami-dade-noa",
-        "roof-plan",
-        "deck-type",
-        "insulation-type"
-      ],
-      "deliverables": [
-        "engineer-letter-report",
-        "wind-engineering-report",
-        "construction-detail"
-      ]
-    },
-    {
-      "id": "wc-metal-roof",
-      "code": "WC-METAL-ROOF",
-      "name": "Metal Roof",
-      "required_inputs": [
-        "address",
-        "jurisdiction",
-        "roof-geometry",
-        "mean-roof-height",
-        "panel-span",
-        "clip-spacing",
-        "deck-type"
-      ],
-      "required_documents": [
-        "metal-roof-noa",
-        "roof-plan",
-        "manufacturer-installation-instructions"
-      ],
-      "deliverables": [
-        "engineer-letter-report",
-        "wind-engineering-report",
-        "construction-detail"
-      ]
-    },
-    {
-      "id": "wc-solar-roof-attach",
-      "code": "WC-SOLAR-ROOF-ATTACH",
-      "name": "Solar Roof Attachment",
-      "required_inputs": [
-        "address",
-        "panel-layout",
-        "attachment-spacing",
-        "truss-framing-plans",
-        "solar-dead-load",
-        "wind-uplift-basis"
-      ],
-      "required_documents": [
-        "solar-layout",
-        "mounting-details",
-        "roof-framing-plans",
-        "product-approvals"
-      ],
-      "deliverables": [
-        "engineer-letter-report",
-        "wind-engineering-report",
-        "structural-report"
-      ]
-    },
-    {
-      "id": "wc-railing",
-      "code": "WC-RAILING",
-      "name": "Railing / Guard",
-      "required_inputs": [
-        "address",
-        "elevation-above-grade",
-        "exposure",
-        "wind-speed",
-        "open-structure-coefficient"
-      ],
-      "required_documents": [
-        "product-approval-test-report",
-        "anchorage-details"
-      ],
-      "deliverables": [
-        "engineer-letter-report",
-        "wind-engineering-report"
-      ]
-    },
-    {
-      "id": "wc-misc-cnc",
-      "code": "WC-MISC-CNC",
-      "name": "Misc C&C Components",
-      "required_inputs": [
-        "address",
-        "component-type",
-        "dimensions",
-        "attachment-condition",
-        "wind-criteria"
-      ],
-      "required_documents": [
-        "product-approval-test-report",
-        "manufacturer-cut-sheet",
-        "shop-drawing"
-      ],
-      "deliverables": [
-        "engineer-letter-report",
-        "wind-engineering-report"
-      ]
-    }
-  ],
-  "wind_subcategory_deliverable_matrix": [
-    {
-      "subcategory_code": "WC-DOOR",
-      "letter": true,
-      "wind_calcs": true,
-      "noa_or_fpa": true,
-      "hvhz_form": false,
-      "roof_plan": false,
-      "ras_calc": false
-    },
-    {
-      "subcategory_code": "WC-WINDOW",
-      "letter": true,
-      "wind_calcs": true,
-      "noa_or_fpa": true,
-      "hvhz_form": false,
-      "roof_plan": false,
-      "ras_calc": false
-    },
-    {
-      "subcategory_code": "WC-ROOF-TILE",
-      "letter": true,
-      "wind_calcs": true,
-      "noa_or_fpa": true,
-      "hvhz_form": true,
-      "roof_plan": true,
-      "ras_calc": true
-    },
-    {
-      "subcategory_code": "WC-ROOF-LOW-SLOPE",
-      "letter": true,
-      "wind_calcs": true,
-      "noa_or_fpa": true,
-      "hvhz_form": true,
-      "roof_plan": true,
-      "ras_calc": false
-    },
-    {
-      "subcategory_code": "WC-METAL-ROOF",
-      "letter": true,
-      "wind_calcs": true,
-      "noa_or_fpa": true,
-      "hvhz_form": true,
-      "roof_plan": true,
-      "ras_calc": false
-    },
-    {
-      "subcategory_code": "WC-SOLAR-ROOF-ATTACH",
-      "letter": true,
-      "wind_calcs": true,
-      "noa_or_fpa": true,
-      "hvhz_form": false,
-      "roof_plan": "optional",
-      "ras_calc": false
-    },
-    {
-      "subcategory_code": "WC-RAILING",
-      "letter": true,
-      "wind_calcs": true,
-      "noa_or_fpa": true,
-      "hvhz_form": false,
-      "roof_plan": false,
-      "ras_calc": false
-    },
-    {
-      "subcategory_code": "WC-MISC-CNC",
-      "letter": true,
-      "wind_calcs": true,
-      "noa_or_fpa": true,
-      "hvhz_form": false,
-      "roof_plan": false,
-      "ras_calc": false
-    }
-  ]
+  }
 }
