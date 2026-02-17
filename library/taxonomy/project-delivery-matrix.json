@@ -53,6 +53,14 @@
     {
       "id": "soil-testing",
       "name": "Soil Testing"
+    },
+    {
+      "id": "private-provider-inspections",
+      "name": "Private Provider Inspections"
+    },
+    {
+      "id": "private-provider-plan-review",
+      "name": "Private Provider Plan Review"
     }
   ],
   "deliverables": [
@@ -127,6 +135,42 @@
     {
       "id": "eor-services",
       "name": "EOR Services"
+    },
+    {
+      "id": "ntbo-inspections",
+      "name": "NTBO Inspections"
+    },
+    {
+      "id": "coi-for-ahj",
+      "name": "COI for AHJ"
+    },
+    {
+      "id": "pp-inspector-resume",
+      "name": "PP Inspector Resume"
+    },
+    {
+      "id": "worksman-comp-policy-waiver",
+      "name": "Worksman Comp Policy or Waiver"
+    },
+    {
+      "id": "pp-inspection-reports",
+      "name": "PP Inspection Reports"
+    },
+    {
+      "id": "coc-final-inspection-report",
+      "name": "COC (Final Inspection Report)"
+    },
+    {
+      "id": "ntbo-plan-review",
+      "name": "NTBO Plan Review"
+    },
+    {
+      "id": "eor-pp-resume",
+      "name": "EOR PP Resume"
+    },
+    {
+      "id": "pp-reviewed-drawings-eor",
+      "name": "PP Reviewed Drawings EOR"
     }
   ],
   "documents_required": [
@@ -185,6 +229,14 @@
     {
       "id": "equipment-specifications",
       "name": "Equipment Specifications"
+    },
+    {
+      "id": "approved-plans",
+      "name": "Approved Plans"
+    },
+    {
+      "id": "stamped-plans",
+      "name": "Stamped Plans"
     }
   ],
   "resources": [
@@ -444,6 +496,42 @@
         "field-geotech-testing",
         "site-visit-inspection-resource"
       ]
+    },
+    {
+      "project_type_id": "private-provider-inspections",
+      "default_deliverables": [
+        "ntbo-inspections",
+        "coi-for-ahj",
+        "pp-inspector-resume",
+        "worksman-comp-policy-waiver",
+        "pp-inspection-reports",
+        "coc-final-inspection-report"
+      ],
+      "required_documents": [
+        "permit-docs",
+        "approved-plans"
+      ],
+      "recommended_resources": [
+        "site-visit-inspection-resource",
+        "virtual-inspection"
+      ]
+    },
+    {
+      "project_type_id": "private-provider-plan-review",
+      "default_deliverables": [
+        "ntbo-plan-review",
+        "coi-for-ahj",
+        "eor-pp-resume",
+        "worksman-comp-policy-waiver",
+        "pp-reviewed-drawings-eor"
+      ],
+      "required_documents": [
+        "permit-docs",
+        "stamped-plans"
+      ],
+      "recommended_resources": [
+        "virtual-consultation"
+      ]
     }
   ],
   "deliverable_breakdown_templates": {
@@ -677,5 +765,21 @@
         }
       ]
     }
+  },
+  "terms": {
+    "COI": "Certificate of Insurance.",
+    "AHJ": "Authority Having Jurisdiction.",
+    "EOR": "Engineer of Record.",
+    "PP": "Private Provider.",
+    "COC": "Certificate of Compliance used to support the request for a Certificate of Occupancy or Certificate of Completion."
+  },
+  "policy_context": {
+    "jurisdiction": "Florida",
+    "primary_reference": "FBC / Florida Statutes \u00a7553.791 Alternative plans review and inspection.",
+    "notes": [
+      "Private providers may perform plans review, required inspections, or both, subject to licensure, insurance, and notice requirements.",
+      "Inspection records and notices are deliverable artifacts and should be maintained in project compliance files.",
+      "At project closeout, the private provider certificate of compliance supports AHJ issuance of certificate of occupancy/completion."
+    ]
   }
 }

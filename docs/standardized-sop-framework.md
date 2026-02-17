@@ -125,3 +125,24 @@ When `Project Type = wind-calculations` and `project_subcategory` is set:
 2. Add required package items (letter, wind calcs, NOA/FPA attachments, etc.).
 3. Assign subcategory-specific input checklist from `wind_calculations_subcategories`.
 4. Link the appropriate playbook directory for engineer/bot execution context.
+
+## 8) Private Provider categories (Florida / FBC context)
+
+The taxonomy includes two Florida private-provider categories aligned with F.S. §553.791 (Alternative plans review and inspection):
+
+1. **Private Provider Inspections**
+   - **Documents required:** Permit Docs, Approved Plans (provided by client)
+   - **Deliverables:** NTBO Inspections, COI for AHJ, PP Inspector Resume, Worksman Comp Policy or Waiver, PP Inspection Reports, COC (Final Inspection Report)
+
+2. **Private Provider Plan Review**
+   - **Documents required:** Permit Docs, Stamped Plans (provided by client)
+   - **Deliverables:** NTBO Plan Review, COI for AHJ, EOR PP Resume, Worksman Comp Policy or Waiver, PP Reviewed Drawings EOR
+
+### Acronym definitions used in this workflow
+
+- **COI**: Certificate of Insurance
+- **AHJ**: Authority Having Jurisdiction
+- **EOR**: Engineer of Record
+- **PP**: Private Provider
+- **COC**: Certificate of Compliance
+
